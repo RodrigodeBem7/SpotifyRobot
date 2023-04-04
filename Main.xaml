@@ -6,7 +6,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1410.4,1852.8</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1410.4,610.4</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Main_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="42">
@@ -89,11 +89,11 @@
   <Sequence DisplayName="Agent Assistant Robot" sap:VirtualizedContainerService.HintSize="586.4,1788" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Let's Rock!" sap:VirtualizedContainerService.HintSize="524,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;The robot is ready. Please, press ALT + r to trigger the automation&quot;]" />
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Let's Rock!" sap:VirtualizedContainerService.HintSize="524,85.6" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;The robot is ready. Please, press ALT + s to trigger the automation&quot;]" />
     <ui:TriggerScope DisplayName="Monitor Agent Action" sap:VirtualizedContainerService.HintSize="524,1550.4" sap2010:WorkflowViewState.IdRef="TriggerScope_1" SchedulingMode="Sequential">
       <ui:TriggerScope.Action>
         <ActivityAction x:TypeArguments="ui:EventInfoTriggerArgs">
